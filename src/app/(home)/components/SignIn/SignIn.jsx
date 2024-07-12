@@ -1,4 +1,6 @@
-import PasswordInput from '../PasswordInput/PasswordInput';
+'use client'
+
+import PasswordInput from '../PasswordInput.jsx/PasswordInput';
 import './SignIn.css'
 import { IoLockClosed } from "react-icons/io5";
 

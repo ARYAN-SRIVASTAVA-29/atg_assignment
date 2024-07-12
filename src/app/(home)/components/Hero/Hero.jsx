@@ -1,3 +1,5 @@
+'use client'
+
 import Form from "../Form/Form";
 import "./Hero.css"
 
@@ -10,6 +12,7 @@ export default function Hero() {
             <div className="hero">
                 <div className="h-cnt">
 
+<div className="h-cnt-main">
                     <div className="h-cnt-txt">
                         <div className="h-cnt-1">
                         Explore your <span className="hb">hobby</span> or <span className="ps">passion</span>
@@ -22,7 +25,14 @@ export default function Hero() {
                          If you are an expert or a seller, you can Add your Listing and promote yourself, your students, products,  services or events.  Hop on your hobbyhorse and enjoy the ride.
                          </div>
                         </div>
-                        <div className="h-cnt-3">
+                   
+                    </div>
+
+                     <div className="h-cnt-signIn">
+                        <Form/>
+                     </div>
+                     </div>
+                          <div className="h-cnt-3">
                             <div className="h-i i-1">
                                 <img src="../hero-1.png" />
                             </div>
@@ -30,12 +40,6 @@ export default function Hero() {
                                 <img src="../hero-2.png"/>
                             </div>
                         </div>
-                    </div>
-
-                     <div className="h-cnt-signIn">
-                        <Form/>
-                     </div>
-
                 </div>
             </div>
 

@@ -1,3 +1,5 @@
+'use client'
+
 import Card from '../Card/Card';
 import './CardSection.css'
 import { IoIosPeople, IoMdBasket } from "react-icons/io";

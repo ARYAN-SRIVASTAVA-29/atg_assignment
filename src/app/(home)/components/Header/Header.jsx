@@ -1,8 +1,12 @@
+'use client'
+
 import "./Header.css";
 import Image from "next/image";
 import { MdExplore } from "react-icons/md";
 import { FaAngleDown, FaStar, FaBookmark, FaBell, FaShoppingCart, FaSearch} from "react-icons/fa";
 import { CiSearch } from "react-icons/ci";
+
+import { IoMdMenu } from "react-icons/io";
 
 export default function Header() {
   return (
@@ -52,7 +56,11 @@ export default function Header() {
 
 <div className="ic-r"><FaBookmark/></div>
 
-<div className="ic-r"><FaBell/></div>
+<div className="ic-r res"><FaSearch/></div>
+
+<div className="ic-r bell"><FaBell/></div>
+
+<div className="ic-r res"><IoMdMenu/></div>
 
 <div className="ic-r"><FaShoppingCart/></div>
 

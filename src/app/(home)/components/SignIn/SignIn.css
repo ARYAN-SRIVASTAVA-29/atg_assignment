@@ -10,6 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     font-family: 'Poppins';
     font-weight: 600;
     font-size: 14px;
@@ -78,4 +79,20 @@
     display: flex;
     gap: 5px;
     cursor: pointer;
+}
+
+
+@media(max-width:388px){
+    .sign-in .cont-btn .logo img{
+        margin-left: -35px;
+    }
+    .sign-in .cn-line .l-1{
+        width: 110px;
+    }
+}
+
+@media(max-width:420px){
+    .sign-in .cn-line .l-1{
+        width: 110px;
+    }
 }

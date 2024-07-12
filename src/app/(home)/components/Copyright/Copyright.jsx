@@ -1,3 +1,5 @@
+'use client'
+
 import './Copyright.css'
 
 export default function Copyright() {

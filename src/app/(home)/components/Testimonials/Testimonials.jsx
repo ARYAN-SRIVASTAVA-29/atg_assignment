@@ -1,3 +1,5 @@
+'use client'
+
 import './Testimonial.css'
 import { FaQuoteLeft } from "react-icons/fa6";
 import { FaMicrophone } from "react-icons/fa";

@@ -1,3 +1,5 @@
+'use client'
+
 import "./GetStart.css"
 
 export default function GetStart() {

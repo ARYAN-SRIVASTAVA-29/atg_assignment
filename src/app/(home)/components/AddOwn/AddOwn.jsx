@@ -1,3 +1,5 @@
+'use client'
+
 import Card from "../Card/Card";
 import "./AddOwn.css"
 import { IoIosAddCircle } from "react-icons/io";

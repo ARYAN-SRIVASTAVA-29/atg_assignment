@@ -1,3 +1,5 @@
+'use client'
+
 import Link from "next/link";
 import "./Footer.css";
 import { FaFacebookF, FaTwitter, FaInstagram, FaPinterest, FaGoogle, FaYoutube, FaTelegram, FaEnvelope } from "react-icons/fa";
