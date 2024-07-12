@@ -1,0 +1,67 @@
+.hero-parent{
+    background-color: 
+    #F7F5F9;
+}
+
+.hero .h-cnt{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero .h-cnt .h-cnt-txt{
+    width: 707px;
+    /* height: 578px; */
+    margin-top: 100px;
+}
+
+.hero .h-cnt .h-cnt-txt .h-cnt-1{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 36px;
+    font-style: italic;
+    line-height: 54px;
+    letter-spacing: 2%;
+}
+
+.hero .h-cnt .h-cnt-txt .h-cnt-1 .hb{
+    color: #0096C8;
+}
+
+.hero .h-cnt .h-cnt-txt .h-cnt-1 .ps{
+    color:#8064A2;
+}
+
+
+.hero .h-cnt .h-cnt-txt .h-cnt-2{
+    margin-top: 32px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 2%;
+}
+
+.hero .h-cnt .h-cnt-txt .h-cnt-2-b{
+    margin-top: 16px;
+}
+
+
+.hero .h-cnt .h-cnt-3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero .h-cnt .h-cnt-3 .h-i img{
+    height: 216px;
+    width: 342px;
+    margin-top: 80px;
+}
+
+
+
+.hero .h-cnt .h-cnt-signIn{
+    /* width: 410px;
+    height: 434px; */
+    /* background-color: aqua; */
+    margin-top: 103px;
+}

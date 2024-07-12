@@ -1,0 +1,81 @@
+.sign-in{
+    font-family: 'Poppins';
+}
+.sign-in .cont-btn{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #8064A2;
+    border-radius: 8px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+.sign-in .cont-btn .logo img{
+  margin-left: -70px;
+  height: 16px;
+  width: 16px;
+}
+
+.sign-in .cont-btn .up{
+    width: 195px;
+}
+
+.sign-in .cn-line{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.sign-in .cn-line .l-1{
+    width: 148px;
+    height: 2px;
+    background:#CED4DA;
+}
+
+.sign-in .input .i-email input{
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #EBEDF0;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.sign-in .input .i-email input:focus{
+    outline: none;
+}
+
+
+.sign-in .remem{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: #939CA3;
+}
+
+.sign-in .remem .rem-a{
+    display: flex;
+    gap: 5px;
+}
+
+.sign-in .remem .rem-b{
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,188 @@
+.card{
+    width: 48%;
+    padding-bottom: 40px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.card .card-content .c-1{
+    height: 40px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.card .card-content .c-1 .c-1-a{
+   font-size: 40px;
+   color: #8064A2;
+}
+
+.card .card-content .c-1 .c-1-b{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    line-height: 24px;
+    color: #000;
+    margin-left: 24px;
+}
+
+.card .card-content .c-2{
+    margin-top: 40px;
+}
+
+
+.card .card-content .c-3{
+    margin-top: 40px;
+}
+
+.card .card-content .c-3 .card-btn{
+    width: 122px;
+    height: 40px;
+    border: 1px Solid #8064A2;
+    color: #8064A2;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+
+/* ==================HOVER===================== */
+
+
+/* -------For People------- */
+.people .card-content .c-1 .c-1-a{
+    color: #8064A2;
+
+}
+
+.people:hover{
+    background: #8064A2;
+    color: white;
+}
+
+.people:hover .card-content .c-1 .c-1-a{
+    color: white;
+}
+
+.people:hover .card-content .c-1 .c-1-b{
+    color: white;
+}
+
+.people:hover .card-content .c-3 .card-btn{
+    border: 1px solid white;
+    color: white;
+}
+
+/* -------------------- */
+
+
+/* ------For Place------- */
+
+.place .card-content .c-1 .c-1-a{
+    color: #77933C;
+}
+
+.place:hover{
+    background: #77933C;
+    color: white;
+}
+
+.place:hover .card-content .c-1 .c-1-a{
+    color: white;
+}
+
+.place:hover .card-content .c-1 .c-1-b{
+    color: white;
+}
+
+.place:hover .card-content .c-3 .card-btn{
+    border: 1px solid white;
+    color: white;
+}
+
+/* --------------- */
+
+/* ------For Product-------- */
+
+.product .card-content .c-1 .c-1-a{
+    color: #C0504D;
+
+}
+
+.product:hover{
+    background: #C0504D;
+    color: white;
+}
+
+.product:hover .card-content .c-1 .c-1-a{
+    color: white;
+}
+
+.product:hover .card-content .c-1 .c-1-b{
+    color: white;
+}
+
+.product:hover .card-content .c-3 .card-btn{
+    border: 1px solid white;
+    color: white;
+}
+
+/* -------------- */
+
+/* ---------For Program------------- */
+
+ .program .card-content .c-1 .c-1-a{
+    color: #0096C8;
+
+}
+
+.program:hover{
+    background: #0096C8;
+    color: white;
+}
+
+.program:hover .card-content .c-1 .c-1-a{
+    color: white;
+}
+
+.program:hover .card-content .c-1 .c-1-b{
+    color: white;
+}
+
+.program:hover .card-content .c-3 .card-btn{
+    border: 1px solid white;
+    color: white;
+}
+
+/* --------------------------- */
+
+
+@media (max-width: 768px) {
+    .card{
+        width: 100%;
+        margin-top: 30px;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .card .card-content .c-1{
+        justify-content: center;
+    }
+
+    
+    .card .card-content .c-3{
+        display: flex;
+        justify-content: center;
+    }
+
+    .card .card-content .c-1 .c-1-b{
+        margin-left: 8px;
+    }
+}

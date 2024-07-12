@@ -1,0 +1,41 @@
+.add-own{
+    background-color: 
+    #F7FDFF;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.add_own{
+    width: 100%;
+    /* height: 284px; */
+}
+
+.add_own .card-content .c-1 .c-1-a{
+    color: #0096C8;
+}
+
+.add_own:hover{
+    background: #0096C8;
+    color: white;
+}
+
+.add_own:hover .card-content .c-1 .c-1-a{
+    color: white;
+}
+
+.add_own:hover .card-content .c-1 .c-1-b{
+    color: white;
+}
+
+.add_own:hover .card-content .c-3 .card-btn{
+    border: 1px solid white;
+    color: white;
+}
+
+
+@media (max-width: 775px){
+    .add-own{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
